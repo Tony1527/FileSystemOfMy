@@ -49,9 +49,9 @@ void Initial(){
 		Dequeue(queue,&a);
 		printf("%s\n",parse(a)->d_filename);
 	}
-	printf("Here:%s\n",parse(_scan_d(".../......."))->d_filename);
+//	printf("Here:%s\n",parse(_scan_d(".../......."))->d_filename);
 	_printSubdir(root,0);
-	printf("%s\n",_scan_d("local/tony.c") == FILEPATH_ERROR?"yes":"no");
+//	printf("%s\n",_scan_d("local/tony.c") == FILEPATH_ERROR?"yes":"no");
 }
 
 int main(){

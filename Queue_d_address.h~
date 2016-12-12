@@ -3,8 +3,8 @@
 #include<stdio.h>
 #include"dentry.h"
 #include<stdlib.h>
-#define QUEUE_EMPTY 1						//队列为空
-#define QUEUE_NULL -1						//队列不存在
+#define QUEUE_EMPTY 1
+#define QUEUE_NULL -1
 
 
 typedef struct _QUEUE_NODE{

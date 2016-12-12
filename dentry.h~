@@ -1,5 +1,6 @@
 #ifndef DENTRY
 #define DENTRY
+//#define CD_NUMBER 6
 #define MAX_AVAILABLE 127			//最大偏移量
 #define MIN_AVAILABLE 0				//最小偏移量
 #define MAX_FILENAME 8				//最大文件名
